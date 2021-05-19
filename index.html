@@ -1,0 +1,83 @@
+<html>
+<div id="home">
+  <head>
+    <title> The Wheel of Anti Procrastination </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 class="text-center"> The Wheel of Anti Procrastination </h1>
+
+    <div id="introduction" class="text-center">
+      <h2>Introduction The Wheel of Anti Procrastination</h2>
+      <p> Welcome! You have found THE WHEEL! The wheel is multi purpose and can be used more than once! 
+        It is affordable and very helpfull if you stuggle specifically with procrastination and not getting things done. Well fear it no more THE WHEEL OF ANTI PROCRSTINATION is here.
+        The Wheel of Anti Procrastination is a fun way to get stuff done!</p>
+    </div>
+
+    <div id="Purpose" class="text-center">
+      <h2>Purpose of The Wheel of Anti Procrastination</h2>
+      <p> The Anti Procrastination Wheel helps you get things done in a fun way! It helps avoid procrastination and in a fun way!</p>
+    </div>
+
+    <div id="prices and details" class="text-center">
+      <h2>Prices and details</h2>
+      <P> To be decided</P>
+    </div>
+</div>
+
+
+<div id="secondpage" class="All text-center">
+  <div>
+  <h2 class="text-center">How To Use The Wheel Of Anti Procrastination</h1>
+  <h3> Pieces </h2>
+  <p>Your wheel is blue and a big circle with dividers. Your base is also blue and a rounded rectangle. Your support arm is orange and has a peg for the wheel</p>
+  <h3>To Assemble</h3>
+  <p> To Assemble The Wheel Of Anti Procrastination you will need, your wheel, your base, and your support arm.
+     Place the support arm in the base. Write the tasks you would like on your wheel with a dry earse marker and then pop the wheel on the support arm.  </p>
+  </div>
+</div>
+
+
+<button id="Home">Previous</button>
+<button id="Secondpage">Next</button>
+</body> 
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script> 
+    function showHome(){
+      $('#home').show()
+    }
+
+    function hideHome(){
+        $('#home').hide()
+    }
+
+    function showsecondpage(){
+      $('#secondpage').show()
+    }
+
+    function hidesecondpage(){
+      $('#secondpage').hide()
+    }
+
+    function hideall(){
+      $('.All').hide()
+    }
+
+    hideall()
+    $('#Secondpage').on('click',hideHome)
+    $('#Secondpage').on('click',showsecondpage)
+    
+    $('#Home').on('click', hidesecondpage)
+    $('#Home').on('click',showHome)
+    
+  </script>
+  </html>
+      
+
+
+
+
+<! -- Sources:
+https://depositphotos.com/stock-photos/watercolor-green-yellow-orange-and-pink-rainbow-gradient-background-with.html
